@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Bewakoof Product Page Layout - NextJS + Tailwind CSS Assignment
 
-## Getting Started
+Overview
+This project is a submission for the NextJS + Tailwind CSS assignment to recreate the layout and responsiveness of the Bewakoof product page (reference URL). The focus is on replicating the page structure, spacing, and responsiveness using placeholder divs, as per the assignment requirements.
 
-First, run the development server:
+Features
+Page Structure: Includes all required sections:
+Header/Navigation bar
+Breadcrumb navigation
+Main product container (image gallery + product details)
+Product action section (size selector, add to cart, etc.)
+Product description tabs
+Recommended products section
+Footer
+Responsiveness: Matches the desktop layout on larger screens and the mobile layout on smaller screens (e.g., iPhone 12 Pro dimensions).
+Placeholder Usage: Uses placeholder divs for most components to mimic the layout structure, with text used in the breadcrumb for visual accuracy.
+No Functionality: All buttons and links are non-interactive, as specified.
 
-```bash
+Screenshots
+
+Desktop View
+
+![Screenshot 2025-05-02 003348](https://github.com/user-attachments/assets/a8b86f2f-f0e0-43b4-8ed4-abc2185afe8d)
+![Screenshot 2025-05-02 003418](https://github.com/user-attachments/assets/4ec69be4-af37-49ee-8b5d-0c5571eb09d7)
+
+Mobile View
+
+![Screenshot 2025-05-02 003451](https://github.com/user-attachments/assets/59d0cbf7-14ca-4f4b-809a-bbc5ed9d1b49)
+
+Setup Instructions
+
+Clone the repository:
+git clone https://github.com/your-username/bewakoof-product-page-layout.git
+
+Navigate to the project directory:
+cd bewakoof-product-page-layout
+
+Install dependencies:
+npm install
+
+Run the development server:
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open your browser and visit http://localhost:3000 to view the project.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Project Structure
+app/page.jsx: Main page component that renders all sections.
+components/: Contains individual components for the header, breadcrumb, product section, recommended products, and footer.
+screenshots/: Contains desktop and mobile screenshots of the layout.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Notes
+The breadcrumb uses text ("Home > Men's Clothing > Men's Printed T-Shirts") to closely match the Bewakoof reference, while other sections use placeholder divs as per the assignment guidelines.
+The layout has been tested for responsiveness using browser dev tools to simulate mobile devices.
 
-## Learn More
+Submission Details
+This project was submitted as part of the NextJS + Tailwind CSS assignment to demonstrate proficiency in layout design and responsive web development using NextJS and Tailwind CSS.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Submitted by: Kartavya Chauhan
+Date: May 02, 2025
